@@ -7,7 +7,8 @@
 ## 用法
 
 1. 首先将项目运行起来,默认ip:localhost,端口:8901
-注意自行修改时同时要修改constant包里面的Constant.java文件的ip和端口号
+
+    注意自行修改时同时要修改constant包里面的Constant.java文件的ip和端口号
 
 2. 通过http://ip:port/short_url_service/create,创建一个短url,记录返回的短url,应该是类似 http://ip:port/short_url_service/find/{id},格式,id为每个不同的短链接数字
 
@@ -15,7 +16,7 @@
     ```json
     {"sourceUrl":"#{sourceUrl}"}
     ```
-    (使用使用postman发送)
+    (使用postman发送)
 
 3. 通过直接在浏览器中输入生成的短链接,类似这样的格式: http://ip:port/short_url_service/find/{id},可以直接重定向到源链接
 
